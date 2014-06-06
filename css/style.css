@@ -1,0 +1,227 @@
+/**
+ * BEGIN OF RESET
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/**
+ * END OF RESET
+ */
+
+
+/**********************
+*	GENERAL 
+**********************/
+body{
+	font-family: 'Open Sans, sans-serif';
+}
+a{
+	text-decoration: none;
+	color: #6ab47b;
+}
+.wrapper{
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 0 5%;
+	
+}
+h3{
+	margin: 0 0 1em 0;
+}
+
+
+ /**********************
+*	HEADER
+**********************/
+
+
+
+header{
+	float: left;
+	margin: 0 0 30px 0;
+	padding: 5px 0 0 0;
+	width: 100%;
+	background: #ff8400; 
+	border-bottom: 5px solid #f16702;
+}
+h1{
+	color: #fff;
+	font-family: 'Changa One', sans-serif;
+	font-size: 1.75em;
+	font-weight: normal;
+	line-height: 0.8em;
+	margin: 15px 0;
+	text-transform: uppercase;
+}
+
+h2{
+	color: #fff;
+	font-size: 0.75em;
+	font-weight: bold;
+	margin: -5px 0 0;
+	text-transform: uppercase;
+}
+.header{
+	float: left;
+	margin-left: 20%;
+	text-align: left;
+	width: 45%;
+}
+
+
+/**********************
+*	footer
+**********************/
+
+
+footer{
+	font-size: 0.75em;
+	text-align: center;
+	padding-top: 50px;
+	color: #ccc;
+	clear: both;
+	padding: 42px 0;
+}
+
+
+
+/**********************
+*	login
+**********************/
+
+.login_box{
+	width: 350px;
+	margin: 0 auto;
+}
+
+
+form {width: 375px; /*margin: 34px auto;*/}
+tr {
+    border: 1px solid #CCC;
+    background: #f4f3f2;
+}
+table {width: 675px; /*margin-bottom: 16px;*/}
+ th {
+    width: 85px;
+    border-right: 1px solid #CCC;
+    vertical-align: middle;
+    padding: 8px;
+}
+td {
+    padding: 15px 15px;
+}
+td select,
+td input,
+td textarea {
+    width: 200px;
+}
+input[type=button]{
+	width: 100px;
+}
+input[type="submit"] {
+    width: 375px;
+    text-align: center;
+    border: 1px solid #8e8e46;
+    background: #9c9f4e;
+    color: #FFF;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;    
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 14px;
+}
+
+
+
+/**********************
+*	movie list
+**********************/
+
+.movielist{
+	width: 675px;
+	margin: 0 auto;
+	text-transform: capitalize;	
+}
+.movielist span{
+	float: right;
+}
+.movielist li{
+	padding: 5px 5px;
+	border: 1px solid #8e8e46;
+}
+
+li:nth-child(even), li:nth-child(odd){
+	background: #ccc;
+}
+li:nth-child(odd){
+	background: #fafaf6;
+}
+.search{
+	width: 675px;
+	margin: 0 auto;	
+}
+.insert{
+	width: 675px;
+	margin: 0 auto;
+}
+.logout{
+	width: 130px;
+
+
+}
+.logout a h1{
+	color: #8e8e46;
+	padding: 5px;
+	background: #ccc;	
+
+	
+}
+.logout a h1:hover{
+	color: #ddd;
+	padding: 5px;
+	background: #999;	
+
+	
+}
